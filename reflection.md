@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+It took me a while to get the api itself running, I had to go about figuring out pagination which in all honesty was not fun. Once I got it to paginate and pull all markets, I filtered for active_markets, and then made a few visuals and filters for a streamlit.
