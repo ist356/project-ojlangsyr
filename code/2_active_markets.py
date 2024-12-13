@@ -20,7 +20,8 @@ df = pd.read_csv('cache/active_markets.csv')
 assert (df['closed'] == False).all(), "Some rows in active_markets.csv are not open (closed != False)."
 print("Validation passed: All rows in active_markets.csv have closed == False.")
 
-#day 1 1726
-#day 2 1739
-#day 3 1787
-#day 4 1801
+#run 1 1726
+#run 2 1739
+#run 3 1787
+#run 4 1801
+#run 5 1721    shows increase and decrease in active markets over time. markets actively being resolved.
